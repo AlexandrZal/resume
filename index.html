@@ -6,36 +6,53 @@
     <meta name="keywords" content="resume">
     <meta name="description" content="resume">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <img src="https://avatars.mds.yandex.net/get-yapic/27232/8vQTLwhYm8bejDgoHXuIPFa3qHc-1/orig" width="200" alt="Это я, честно вру" >
-    <h1>Александр</h1> 
-    <p>ПИВО ПИВО ПИВО</p>
-    <br>
-    <p>Список соц. сетей:</p>
-    <a href="#">OnlyFans</a> | <a href="#">PornHabr</a>
-    <h2>Мои хобби</h2>
-    <ul>
-        <li>Пинать хуи</li>
-        <li>Смотреть шортсы</li>
-        <li>Ковырять в носу</li>
-        <li>Не понимать почему я не миллионер</li>
-    </ul>
+    <div class="container">
+
+    <div class="info"> 
+        <img src="https://avatars.mds.yandex.net/get-yapic/27232/8vQTLwhYm8bejDgoHXuIPFa3qHc-1/orig" alt="Это я, честно вру" class="avatar"> 
+        <div class="info-text">
+            <h1>Александр</h1>
+            <p>ПИВО ПИВО ПИВО</p>
+            <p>Список соц. сетей:</p>
+            <a href="#">OnlyFans</a> | <a href="#">PornHabr</a>
+        </div>                
+    </div>  
+
+    <div class="card-1">
+        <h2>Мои хобби</h2>
+        <ul class="list">
+            <li>Пинать хуи</li>
+            <li>Смотреть шортсы</li>
+            <li>Ковырять в носу</li>
+            <li>Не понимать почему я не миллионер</li>
+        </ul>
+    </div>
+
+    <div class="card-2">
     <h2>Опыт работы</h2>
-    <table>
-        <tr>
-            <td><strong>Название</strong></td>
-            <td><strong>Должность</strong></td>
-            <td><strong>Год</strong></td>
-        </tr>
-        <tr>
-            <td>Куни за ламбаргуни</td>
-            <td>Главный исполнитель</td>
-            <td>1999 - по сей день</td>
-        </tr>
+        <table class="table">
+            <tr>
+                <td><strong>Название</strong></td>
+                <td><strong>Должность</strong></td>
+                <td><strong>Год</strong></td>
+            </tr>
+            <tr>
+                <td>Быть ебантяем</td>
+                <td>Главный исполнитель</td>
+                <td>1999 - по сей день</td>
+            </tr>
     </table>
-    <h2>Связаться со мной</h2>
-    <form>
+    </div>
+
+    <div class="card-3">    
+    <form class="form">
+        <h2>Связаться со мной</h2>
         <div>
             <label for="text">Ваше имя:</label>
             <input type="text" id="text" placeholder="Введите имя">
@@ -45,14 +62,14 @@
             <label for="email">Ваш email:</label>
             <input type="email" id="email" placeholder="Введите email">
         </div>
+
             <label for="message">Ваше сообщение:</label>
             <br>
             <textarea name="message" id="message" placeholder="Введите сообщение..."></textarea>
             <br>
-            <button>Отправить</button>
-        <div>
-
-        </div>
+            <button class="btn">Отправить</button>
     </form>
+    </div>
+    </div>
 </body>
 </html>

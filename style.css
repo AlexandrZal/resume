@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+body {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    color: #0F141E;
+    background-color: #F1F1F1;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list li {
+    margin: 5px;
+}
+
+.table {
+    display: inline;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.table td {
+    text-align: center;
+    padding: 10px 0px;
+    width: 30%;
+}
+
+.btn {
+    box-sizing: border-box;
+    border-color: #000;
+    color: #fff;
+    background-color: #0F141E;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+}
+.info {
+    display: flex;
+    padding: 15px;
+    margin: auto;
+    padding: auto;
+}
+
+.info-text {
+    justify-content: center;
+    height: 200px;
+    margin: auto;
+    margin-left: 40px;
+}
+.info-text h1, .info-text p, .info-text a {
+    margin: 10px;
+}
+
+.avatar {
+    border-radius: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    width: 200px;
+    display: block;
+}
+
+.card-1 {
+    background-color: #e4e8ff;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.card-2 {
+    background-color: #ede4ff;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.card-3 {
+    background-color: #fee3ec;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.form h2 {
+    text-align: center;
+}
+@media (max-width: 500px) {
+    .container {
+        width: 100%;
+    }
+    .card-1 {
+        width: 100%;
+    }
+    .card-2 {
+        width: 100%;
+    }
+    .card-3 {
+        width: 100%;
+    }
+    
+}
